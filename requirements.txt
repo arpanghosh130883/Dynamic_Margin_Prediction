@@ -1,0 +1,12 @@
+### dependency
+tqdm
+mlflow
+pandas
+numpy
+PyYAML
+sklearn
+shap
+xgboost
+
+### local packages -
+-e . # << uncomment this to install from setup.py

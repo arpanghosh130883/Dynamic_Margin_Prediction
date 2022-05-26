@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Arpan/Dynamic%20Pricing/DynamicMargin/mlruns/0/7033a3cdece845559dcb59a528a90a16/artifacts
+end_time: 1653301213466
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 7033a3cdece845559dcb59a528a90a16
+run_uuid: 7033a3cdece845559dcb59a528a90a16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1653301204547
+status: 3
+tags: []
+user_id: Arpan.Ghosh

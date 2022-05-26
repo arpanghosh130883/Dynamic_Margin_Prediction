@@ -1,0 +1,30 @@
+# It contains all the configs required in the project
+
+artifacts:
+  ARTIFACTS_DIR: artifacts
+  PREPARED_DATA: prepared
+  PREPARE_DATA: preparedata.csv
+  TRAIN_TEST_DATA: train_test
+  TRAIN_DATA: train.csv
+  TEST_DATA: test.csv
+  MODEL_DIR: model
+  TEST_DIR: test
+  #BASE_MODEL_DIR: base_model
+  MODEL_NAME: RFmodel.pkl
+  # UPDATED_BASE_MODEL_NAME: updated_base_model.h5
+  # CHECKPOINT_DIR: checkpoints
+  # BASE_LOG_DIR: base_model_dir
+  # TENSORBOARD_ROOT_LOG_DIR: tensorboard_log_dir
+  # CALLBACKS_DIR: callbacks
+
+# source_download_dirs:
+#   - path_to_data_1
+#   - path_to_data_1
+
+source_data:
+  data_dir: data
+  data_file: df_margin_5000.csv
+
+# local_data_dirs:
+#   - path_to_local_data_1
+#   - path_to_local_data_2

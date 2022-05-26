@@ -1,0 +1,12 @@
+# This contains params to be used by the stages to train or predict
+prepare:
+  split: 0.3
+  seed: 42
+
+train:
+  seed: 42
+  ccp_alpha: 1.07048872e-07
+  max_depth: 15
+  min_samples_leaf: 10
+  min_samples_split: 18
+  n_estimators: 200
