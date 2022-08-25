@@ -37,3 +37,11 @@ conda env export > conda.yaml
 ```bash
 mlflow server --backend-store-uri sqlite:///mlfow.db --default-artifact-root ./artifacts --host 127.0.0.1 -p 1234
 ```
+
+### Command to run CI unit testing
+
+```bash
+1.	vulture_stdcoding.py -> python src/vulture_stdcoding.py
+2.	black_formatting.py -> python src/black_formatting.py
+3.	pytest_script.py -> python -m pytest src/pytest_script.py
+```
