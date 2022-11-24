@@ -10,7 +10,12 @@ artifacts:
   MODEL_DIR: model
   TEST_DIR: test
   #BASE_MODEL_DIR: base_model
-  MODEL_NAME: RFmodel.pkl
+  MODEL_NAME: RFregressorBSTRS_WTB.pickle
+  PICKLE_DIR: pickle
+  CHANNEL_PICKLE: ordinal_label_channel_TB.pickle
+  AZA_PICKLE: ordered_labels_aza_TB.pickle
+  SOURCE_PICKLE: ordinal_label_source_TB.pickle
+  SCALER_PICKLE: scaler_8Nov.pickle
   # UPDATED_BASE_MODEL_NAME: updated_base_model.h5
   # CHECKPOINT_DIR: checkpoints
   # BASE_LOG_DIR: base_model_dir
@@ -23,7 +28,7 @@ artifacts:
 
 source_data:
   data_dir: data
-  data_file: df_margin_5000.csv
+  data_file: df_test.csv
 
 # local_data_dirs:
 #   - path_to_local_data_1
