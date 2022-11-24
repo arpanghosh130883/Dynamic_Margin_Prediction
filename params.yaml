@@ -9,4 +9,13 @@ train:
   max_depth: 15
   min_samples_leaf: 10
   min_samples_split: 18
-  n_estimators: 200
+  n_estimators: 100
+
+fillnull:
+  London: 1.991306
+  Affiliate: 15
+  Website: 4
+  aza: London
+  source: Affiliate
+  channel: Website
+  age: 60
